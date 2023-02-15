@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-img = cv2.imread("yolo_basic\Images\3.png")
+img = cv2.imread("image.png")
 
 # Convert the image to grayscale
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
